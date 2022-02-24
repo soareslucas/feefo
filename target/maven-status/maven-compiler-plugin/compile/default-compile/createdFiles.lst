@@ -1,0 +1,8 @@
+com/feefo/exercise/utils/Normaliser.class
+com/feefo/exercise/model/Job.class
+com/feefo/exercise/SpringHttpSessionConfig.class
+com/feefo/exercise/repository/DatabaseLoader.class
+com/feefo/exercise/repository/JobRepository.class
+com/feefo/exercise/controller/JobController.class
+com/feefo/exercise/service/JobService.class
+com/feefo/exercise/ReactAndSpringDataRestApplication.class
