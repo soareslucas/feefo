@@ -18,11 +18,13 @@ public class JobController {
     private JobService jobService;
 
     /* 
-        It sends the job of an question by refering 
-        the questionId, optionId and the jobedText (if thats the case)
+        Pass the string to be normlised through the param {jobTitle}
+        in the url.
 
-        Returns the Test Entity, also with information of remaining time
-        and next question to be jobed.
+        If you want to test the string "C# Engineer" please replace
+        the char # for %23.
+
+        Returns the Job Title Normalised
     */
 
     @RequestMapping(value="/normalise/{jobTitle}", method = RequestMethod.GET,
